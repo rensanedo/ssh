@@ -19,7 +19,7 @@ rm /etc/ssh/sshd_config
 
 # Langkah 3: Mengunduh file sshd_config baru
 echo "Mengunduh konfigurasi SSH baru dari server..."
-wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/rensanedo/ssh/refs/heads/main/sshd_config
+wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/rensanedo/ssh/main/sshd_config
 
 # Langkah 4: Restart layanan SSH
 echo "Me-restart layanan SSH..."
